@@ -9,6 +9,7 @@ const VideoList = (props) => {
           props.videos.map(video => (
             <VideoListItem
               video={video}
+              onVideoSelect={ props.onVideoSelect }
               key={video.etag} />
           ))
         }
