@@ -8,6 +8,7 @@ class SearchBar extends React.Component {
 
   onInputChange(e) {
     this.setState({ term: e.target.value });
+    console.log(e.target.value);
   }
 
   render() {

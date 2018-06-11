@@ -16,7 +16,7 @@ class App extends React.Component {
       selectedVideo: null
     };
 
-    YTSearch({key: API_KEY, term: 'surfboard'}, videos => {
+    YTSearch({key: API_KEY, term: 'cow'}, videos => {
       this.setState({
         videos,
         selectedVideo: videos[0]
